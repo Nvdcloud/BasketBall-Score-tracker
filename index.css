@@ -1,0 +1,75 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: Calculator;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 575px;
+    height: 385px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    background: url("basketball-court.jpg");
+    background-size: cover;
+}
+
+.hero {
+    margin: 30px 0 69px 0;
+    color: #EEEEEE
+}
+
+span {
+    display: block;
+    font-family: Calculator;
+    font-size: 90px;
+    margin: 10px 0 0 0;
+    color: #F94F6D
+}
+
+h3 {
+    font-size: 40px;
+    margin: 26px 0 21px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 5px white;
+}
+
+button {
+    margin: 26px 9px 0 0;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: Calculator;
+    font-size: 18px;   
+}
+
+#newgame-btn {
+    color: lightgreen;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 100px;
+    height: 50px;
+    
+    
+}
+
+.scoreboard {
+    margin-top: 0px;
+    border: 1px solid black;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+       
+}
+
+
+
