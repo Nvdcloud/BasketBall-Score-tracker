@@ -24,12 +24,27 @@ body {
     color: #EEEEEE
 }
 
-span {
+#timer {
+    
+    display: block;
+    font-family: Calculator;
+    color: #F94F6D;
+    font-size: 30px;
+    background-color: #1B244A;
+    padding: 10px 18px 0px 5px;
+    border-radius: 10px;
+    margin: 80px auto 0px auto;
+    border: 2px solid #9AABD8;
+    
+}
+
+.score {
     display: block;
     font-family: Calculator;
     font-size: 90px;
     margin: 10px 0 0 0;
-    color: #F94F6D
+    color: #F94F6D;
+    
 }
 
 h3 {
